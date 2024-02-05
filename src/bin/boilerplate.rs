@@ -23,15 +23,16 @@ fn part2(input: &str) -> u32 {
 mod tests {
     use super::*;
 
+    const test_input: &str = 
+"";
+
     #[test]
     fn test_part1() {
-        let input = "";
-        assert_eq!(part1(input), 0);
+        assert_eq!(part1(test_input), 0);
     }
 
     #[test]
     fn test_part2() {
-        let input = "";
-        assert_eq!(part2(input), 0);
+        assert_eq!(part2(test_input), 0);
     }
 }
