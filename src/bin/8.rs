@@ -153,7 +153,7 @@ fn part2(input: &str) -> u64 {
     }
 
     dbg!(&loop_patterns);
-    // Turns out they literally all instantly loop (first end node at (n), loop size(n)), no touching endpoint inbetween 
+    // Turns out they literally all instantly loop (first end node at (n), loop size (n)), no touching endpoint inbetween 
     // Despite the fact that the graphs could have been much more complicated, e.g. out of phase with instructions, hitting end points multiple times per loop, etc..
     // Kind of a dumb problem.. 
 
