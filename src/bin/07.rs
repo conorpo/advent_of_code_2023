@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 
 fn main() {
-    let input = include_str!("./7.txt");
+    let input = include_str!("./07.txt");
     let part1_output = part1(input);
     dbg!(part1_output);
     let part2_output = part2(input);

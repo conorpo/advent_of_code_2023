@@ -1,5 +1,5 @@
 fn main() {
-    let input = include_str!("./6.txt");
+    let input = include_str!("./06.txt");
     let part1_output = part1(input);
     dbg!(part1_output);
     let part2_output = part2(input);

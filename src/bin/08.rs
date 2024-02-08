@@ -9,7 +9,7 @@ struct Node<'a> {
 
 
 fn main() {
-    let input = include_str!("./8.txt");
+    let input = include_str!("./08.txt");
     let part1_output = part1(input);
     dbg!(part1_output);
     let part2_output = part2(input);
@@ -152,14 +152,14 @@ fn part2(input: &str) -> u64 {
         }
     }
 
-    dbg!(&loop_patterns);
+    //dbg!(&loop_patterns);
     // Turns out they literally all instantly loop (first end node at (n), loop size (n)), no touching endpoint inbetween 
     // Despite the fact that the graphs could have been much more complicated, e.g. out of phase with instructions, hitting end points multiple times per loop, etc..
     // Kind of a dumb problem.. 
 
     let loop_patterns = loop_patterns.iter().map(|(_,_,l,_)| (l / loop_size) as u64).collect::<Vec<u64>>();
 
-    dbg!(&loop_patterns);
+    //dbg!(&loop_patterns);
     // All prime numbers, clever...
 
     loop_patterns.iter().fold(1, |acc, x| acc * x) * loop_size as u64

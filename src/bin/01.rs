@@ -1,6 +1,6 @@
 //Puzzle Input
 pub fn main() {
-    let input = include_str!("./1.txt");
+    let input = include_str!("./01.txt");
     let output = part1(input);
     dbg!(output);
     let output = part2(input);

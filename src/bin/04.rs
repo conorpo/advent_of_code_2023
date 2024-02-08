@@ -4,7 +4,7 @@ Day 4
 
 
 fn main() {
-    let input = include_str!("./4.txt");
+    let input = include_str!("./04.txt");
     let output = part1(input);
     dbg!(output);
     let output2 = part2(input);

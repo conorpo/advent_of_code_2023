@@ -1,7 +1,7 @@
 // Gonna start combining parts when they're similar enough
 
 fn main() {
-    let input = include_str!("./9.txt");
+    let input = include_str!("./09.txt");
     let (part1_output, part2_output) = both_parts(input);
 
     dbg!(part1_output);

@@ -11,7 +11,7 @@ If I redid this I'd probably just s
 
 
 fn main() {
-    let input = include_str!("./3.txt");
+    let input = include_str!("./03.txt");
     let output = part1(input);
     dbg!(output);
     let output2 = part2(input);

@@ -1,7 +1,7 @@
 use std::collections::VecDeque;
 
 fn main() {
-    let input = include_str!("./5.txt");
+    let input = include_str!("./05.txt");
     let part1_output = part1(input);
     dbg!(part1_output);
     let part2_output = part2(input);

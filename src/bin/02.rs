@@ -1,6 +1,6 @@
 //Puzzle Input
 fn main() {
-    let input = include_str!("./2.txt");
+    let input = include_str!("./02.txt");
     let output = part1(input);
     dbg!(output);
     let output2 = part2(input);

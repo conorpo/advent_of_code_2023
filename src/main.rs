@@ -17,13 +17,15 @@ fn main() {
     for day in days {
       let time_start = Instant::now();
 
-      let cmd = Command::new("cargo").args(["run", "--bin", &day]).output().ok();
+      //println!("./target/release/${:}.exe", day);
+      let cmd = Command::new(format!("./target/release/{:}.exe", day)).output().ok();
 
       if let Some(output) = cmd {
         if output.status.success() {
           let run_time = time_start.elapsed().as_micros();
             total_time += run_time;
           println!("Day {} ran in {}ms", day, run_time / 1000);
+          println!("{}", String::from_utf8_lossy(&output.stderr));
         }
       }
     }
