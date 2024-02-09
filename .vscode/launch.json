@@ -1,0 +1,452 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'advent_of_code_2023'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=advent_of_code_2023",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "advent_of_code_2023",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'advent_of_code_2023'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=advent_of_code_2023",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "advent_of_code_2023",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '01'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=01",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "01",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '01'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=01",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "01",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '02'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=02",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "02",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '02'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=02",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "02",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '03'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=03",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "03",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '03'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=03",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "03",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '04'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=04",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "04",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '04'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=04",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "04",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '05'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=05",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "05",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '05'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=05",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "05",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '06'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=06",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "06",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '06'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=06",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "06",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '07'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=07",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "07",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '07'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=07",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "07",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '08'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=08",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "08",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '08'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=08",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "08",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '09'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=09",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "09",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '09'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=09",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "09",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '10'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=10",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "10",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '10'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=10",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "10",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'boilerplate'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=boilerplate",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "boilerplate",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'boilerplate'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=boilerplate",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "boilerplate",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
