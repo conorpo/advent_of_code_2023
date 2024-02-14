@@ -414,6 +414,43 @@
         {
             "type": "lldb",
             "request": "launch",
+            "name": "Debug executable '11'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=11",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "11",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '11'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=11",
+                    "--package=advent_of_code_2023"
+                ],
+                "filter": {
+                    "name": "11",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
             "name": "Debug executable 'boilerplate'",
             "cargo": {
                 "args": [
